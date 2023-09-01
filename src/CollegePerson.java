@@ -1,7 +1,7 @@
 public class CollegePerson {
-     String name;
-     String surname;
-     long collegeId;
+   protected String name;
+   protected String surname;
+   protected long collegeId;
 
     public CollegePerson(String name, String surname, long collegeId) {
         this.name = name;

@@ -1,6 +1,5 @@
 public class Assistant extends CollegePerson implements LearningPerson, TeachingPerson {
-
-     boolean isGoingToBeAPhD;
+    protected boolean isGoingToBeAPhD;
     public Assistant(String name, String surname, long collegeId, boolean isGoingToBeAPhD) {
         super(name, surname, collegeId);
         this.isGoingToBeAPhD = isGoingToBeAPhD;

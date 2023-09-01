@@ -1,5 +1,5 @@
 public class Professor extends CollegePerson implements TeachingPerson {
-     String teachingSubject;
+    protected String teachingSubject;
     public Professor(String name, String surname, long collegeId, String teachingSubject) {
         super(name, surname, collegeId);
         this.teachingSubject = teachingSubject;
